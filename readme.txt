@@ -13,17 +13,6 @@ If you land on the Go To Jail square, you will be jailed for 3 turns. Landing a 
 When landing on railroads or utilities, you will be able to buy them. The rent cost when other players land on them will change depending on the number of 
 railroad / utilities you own respectively.
 
-❗️ MILESTONE 4 
-When a player begins a new game, if not specified, a USA version of the game is started by default. Otherwise, a player has the option to begin an international
-version of the game, a Canadian version.
-To play the default regular version, select "New"
-To play the Canadian version, select "Load" then type "canadianVersion.xml"
-To play the Dubai version, select "Load" then type "dubaiVersion.xml"
-General Notes: 
-- The "saveExample.xml" is an unplayed saved example of what a user would view once a game is saved.
-- International versions of Monopoly must be played by a total of 4 players, and no AI players.
-
-
 👷 DESIGN DECISIONS
 In this milestone, the group decided to work with a boardlayout for squares on the board as it was easier to maniplulate and a rough replica of the actual
 Monopoly board. The squares, players, and buttons were created as an Arraylist for ease of access. We decided to create a frame in which a player can input the number of playes and then the number of AI players they wish to have participate in the game. The AI was developed in the Controller class as it controls a player, as opposed to creating it as an additional object since we hard coded the design of the AI functionality. The buttons on the board are disabled when not in use so that the program will not display errors when a player attempts to use them at an invalid time, and those buttons are then enabled when its suited to use them. 
@@ -32,7 +21,6 @@ turn to the next player. The disabling of the button at that time will prevent a
 players. The group developed railroad and utilities as an implementation of property since they can be bought, similarly, jail was not implemented as property as
 it cannot be purchased. Also, the static variable "Turn" in the Game class was designed such a way that it designates a turn to each player in the game, so it controls and keeps track of which player is currently playing. Finally, the colours in the Square class are represented as a string and only appear in the Frame 
 for an easier implementation. 
-
 
 📝 LICENSE 
 Copyright under "fair use" for educational purposes
