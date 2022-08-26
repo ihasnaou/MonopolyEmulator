@@ -2,26 +2,6 @@
 This program reproduces a simplified version of the popular board game Monopoly.
 This program was made for the SYSC 3110 team project, by group 15, which consists of Ilyes Hasnaou, Sara Shikhhassan, and Sam Al-Zoubi.
 
-🔨 BREAK DOWN OF TASKS FOR MILESTONE 4
-Unit Tests for xml (manual testing): Ilyes
-Save: Sam and Sara 
-Started Serialization (imported n exported files): Ilyes
-Completed the full functioning serialization for load and save: Sam and Sara
-Read SAX: Sara and Sam
-International Version: Sara and Sam
-Player info display fixed: Ilyes
-Doubles and buying mistake fixed: Ilyes
-Buying houses fixed: Sam
-Rent: Ilyes 
-Buying special spaces fixed: Sara
-UML: Sara
-Javadoc Documentation: Sara
-Read Me file: Sara and Ilyes
-
-Overall the team contributed equally and fairly. Please note that parts done together such as read SAX was done over zoom where both 
-Sara and Sam worked together to implement the code. 
-
-
 📄 GENERAL USAGE NOTES
 To run this program, put in the number of players that you want, click on confirm, then put in the number of AI players you want, and hit confirm again.
 The maximum number of players allowed in a game is 5, this includes both AI and normal players.
